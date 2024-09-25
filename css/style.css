@@ -1,6 +1,6 @@
 .app {
    display: flex;
-	align-items: center;
+   align-items: center;
 }
 
 .content {
@@ -72,8 +72,13 @@ a:hover::before {
 }
 
 .image-wrap {
+   width: 500px;
+   height: 553px;
    margin-left: -40px;
    position: relative;
+   background-image: url(../images/main.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .image-wrap::before,
